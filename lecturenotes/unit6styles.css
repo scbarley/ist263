@@ -1,0 +1,19 @@
+/* below is an element selector */
+h1 {color:darkorange;}
+/* below is a grouped selector */
+p , h1 {
+    font-size: 200%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    background-color:olive;
+}
+/* descendant selector only changes links inside paragraph tags*/
+p a {
+    color: green;
+    /*Class selector can be used to pick one or more tags on a page*/
+}
+.secondpara {color:aqua;}
+/*this is an ID selector, ID's must be unique*/
+#firstpara{
+    color:azure;
+}
