@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <title>Skills</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            body {padding: 20px;}
+            p { 
+                background-color:#343838;
+                border: 0px solid #343838;
+            } 
+            h1 {text-align: center;}
+            .logos{
+                display:flex;
+                flex: 3;
+                justify-content: space-evenly;
+                padding-top: 60px;
+            } 
+            p {text-align: justify;}
+            .box2{
+                display: flex;
+                flex: 1;
+            }
+            .flexbox{
+                display: flex;
+            }
+            aside {
+                background-color: #bfbfbf;
+                color: #000000;
+                border-radius: 1em;
+                padding: 15px;
+            }
+            aside p{background-color: #bfbfbf;}
+            h3 {font-size: 2em;}
+            .trytoalign {
+                display: flex;   
+            }
+            .para{flex:3;}
+            .blank{flex:1;}
+
+            .skip {
+                background-color: #FFFFF0;
+                padding: 5px;
+                border: 1px solid black;
+                text-decoration: none;
+                position: absolute;
+                left: -999px;
+                top: 30px;
+            }
+            .skip:focus {
+            left: 10px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <a href="#main" class="skip" tabindex="1">Skip To content</a> <br>
+
+        <nav>
+            <a href="index.html">Home <span>|</span> </a>
+            <a href="skills.html">Skills <span>|</span> </a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <section>
+            <h1 id="main">Skills</h1>
+            <div class="trytoalign"> 
+                <div class="para"><p>I have a technical background in computer science and in information sciences, as those are what I study in school currently. I also have work experience in a wide range of jobs, both professionally, and learning opportunities.</p></div> 
+                <div class="blank"></div>
+            </div>
+        </section>
+        
+        
+        
+        <section>
+            <h3>Details</h3>
+            <div class="flexbox"> 
+                <div class="logos">
+                    <div><img src="../images/python.svg" alt="Python Logo" width="75" height="75"> <br>
+                        <p>PYTHON</p> <br> 
+                    </div>
+                    <div>
+                        <img src="../images/c-solid.svg" alt="C language Logo" width="75" height="75"> <br>
+                        <p>C AND C++ </p> <br> 
+                    </div>
+                    <div>
+                        <img src="../images/js.svg" alt="Java Script Logo" width="75" height="75"> <br>
+                        <p>JAVA</p> <br>
+                    </div>
+                    <div>
+                        <img src="../images/code-solid.svg" alt="Haskell Logo" width="75" height="75"> <br>
+                        <p>HASKELL</p> <br>
+                    </div>
+                    <div>
+                        <img src="../images/list-solid.svg" alt="Data Structures Logo" width="75" height="75"> <br>
+                        <p>DATA STRUCTURES</p> <br>
+                    </div>
+                </div>
+                
+                <div class="box2">
+                    <aside>
+                        <h3>Other Skills</h3>
+                        <p>Excell</p><br>
+                        <p>Student Supervisor</p><br>
+                        <p>Lab Tech</p><br>
+                        <p>Website Development</p><br>
+                        <p>Retail Work</p>
+                    </aside>
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </body>
+
+
+
+
+</html>
