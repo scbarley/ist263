@@ -1,6 +1,6 @@
 body {
     background-color:#343838; /*the gray */
-    color: #ffffff; /*ivory*/
+    color: #fffff0; /*ivory*/
     padding: 15px;
     margin-left: 15px;
 } 
@@ -13,8 +13,8 @@ a:hover {color: #9cc300;}
 a:visited {color: #02925d}
 
 h1, h2 {
-    background-color: #008C9E; /*medium teal */
-    border: 7.5px solid #005F6B; /*dark teal*/
+    background-color: #062529; /*medium teal */
+    border: 7.5px solid #042227; /*dark teal*/
     margin-top: 5px;
     margin-bottom: 5px; 
     
@@ -30,8 +30,8 @@ h2 {
 }
 
 p, ul, dl  {
-    background-color: #319fae;
-    border: 7.5px solid #12626d;
+    background-color: #062529;
+    border: 7.5px solid #042227;
     
     
 
