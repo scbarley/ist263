@@ -61,15 +61,16 @@ nav {
 }
 
 nav a {
-    color: #2f1b1b;  
+    color: #2f1b1b;
+    text-decoration: none; 
 }
 
 nav a:hover {
-    background-color: #b31f1f;
+    background-color: #f9a9a9;
 }
 
 nav a:visited {
-    color: #f97f7f;
+    color: #4c2020;
 }
 
 @media only screen and (max-width: 600px) {
