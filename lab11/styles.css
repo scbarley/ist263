@@ -1,6 +1,6 @@
 body {
     background-color:#343838; /*the gray */
-    color: #FFFFF0; /*ivory*/
+    color: #ffffff; /*ivory*/
     padding: 15px;
     margin-left: 15px;
 } 
@@ -16,7 +16,7 @@ h1, h2 {
     background-color: #008C9E; /*medium teal */
     border: 7.5px solid #005F6B; /*dark teal*/
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 5px; 
     
 
 }
