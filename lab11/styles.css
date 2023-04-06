@@ -9,8 +9,7 @@ a {
     color: #00B4CC; /*light teal*/
 }
 
-a:hover {color: #9cc300;}
-a:visited {color: #02925d}
+
 
 h1, h2 {
     background-color: #062529; /*medium teal */
@@ -32,15 +31,11 @@ h2 {
 p, ul, dl  {
     background-color: #062529;
     border: 7.5px solid #042227;
-    
-    
-
 }
 
 
 
 img {
-
     margin-top: 3px;
     margin-bottom: 3px;
 }
@@ -51,13 +46,11 @@ strong {
 }
 
 nav {
-
     margin-top: 5px;
     margin-bottom: 30px;
     border: 5px solid #ececbd;
     background-color: #FFFFF0;
-    padding: 10px;
-    
+    padding: 10px; 
 }
 
 nav a {
@@ -65,12 +58,19 @@ nav a {
     text-decoration: none; 
 }
 
-nav a:hover {
+nav a:hover  {
     background-color: #f9a9a9;
 }
 
 nav a:visited {
     color: #4c2020;
+}
+
+.skip a:visited {color: #4c2020;}
+.skip a:hover {background-color: #f9a9a9;}
+.skip a {
+    color: #2f1b1b; 
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 600px) {
