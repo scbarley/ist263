@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+
+
+    <script>
+        /* function is a command in js, welcome is a name we made up
+            this is just naming code so we can call it when we need to use it */
+        function welcome() {
+            alert("Hello World");
+        }
+
+        function second() {
+            alert("Second Pop Up");
+        }
+
+        function Third() { /*  java is case sensitive, anytime I call Third it has to be capitalized the exact same*/
+            alert("Third messsage");
+        }
+    </script>
+
+
+
+</head>
+<body onload="Third();">
+    <!-- onclick works for any element, not just for <a> tags-->
+    <h1>Java Scrizzipt</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur dolores alias, nostrum ullam mollitia ducimus, in ipsum rem deserunt omnis explicabo praesentium similique voluptatem provident repellendus neque aspernatur possimus iste.</p>
+
+    <a onclick="welcome();">Welcome Us</a>
+
+    <p onmouseover="second();"> this one will call the function when the mouse rolls over it</p>
+</body>
+</html>
