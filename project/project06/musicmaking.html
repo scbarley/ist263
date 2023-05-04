@@ -4,42 +4,282 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Creation</title>
+
+    <style>
+        .skip {
+            background-color: #e7d8d8;
+            padding: 5px;
+            border: solid 3px #e7d8d8;
+            text-decoration: none;
+            position: absolute;
+            left: -999px;
+            top: 30px;
+        }
+        .skip a {
+            color: #e7d8d8;
+            font-weight: bolder;
+        }
+        .skip a:visited {
+            color: #e7d8d8;
+        }
+        .skip:focus {
+            left: 10px;
+        }
+
+
+
+        body {
+            color: #e7d8d8;
+            background-color: #2b2727;
+        }
+        .threefold {
+            display: flex;
+            
+        } 
+        .left, .right {
+            background-color: #2b2727;
+            flex: 1;
+            max-width: 100%;
+            height: auto;
+            /*border: solid 5px #e7d8d8;
+            border-radius: 1em; */ 
+        }
+        .center { 
+           /* display: flex;
+            flex-direction: column; */
+            flex: 1;
+            padding-left: 15px; 
+            padding-right: 15px;
+            
+            text-align: center;
+            align-items: center;
+            
+            max-width: 100%;
+            height: auto;
+        }
+        .writing, .video, .senses, .more, .hereandnow {
+            padding: 10px;
+            margin: 20px;
+        }
+        .writing{
+            background-color: #a43025;
+            border-radius: 1em;
+        }
+        .senses{
+            background-color: #a43025;
+            border-radius: 1em;
+        }
+        .more{
+            background-color: #a43025;
+            border-radius: 1em;
+        }
+        .hereandnow{
+            background-color: #a43025;
+            border-radius: 1em;
+        }
+        .video {
+            background-color: #d9f5ff;
+            border-radius: 1em;
+        }
+        .senses a {
+            display: block;
+            background-color: #e7d8d8;
+            text-decoration: none;
+            color: #530000;
+            font-weight: bolder;
+            border-radius: 1em;
+        }
+
+        nav {
+            background-color: #e7d8d8;
+            margin: 15px;
+            padding: 15px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #530000;
+            font-weight: bolder;
+        }
+        nav a:hover {
+            color: #4d0606;
+        }
+        nav a:visited {
+            color: #430000;
+        }
+        .banner {
+            color:#2b2727;
+            background-color: #d9f5ff;
+            font-weight: bolder;
+            text-align: center;
+            padding: 30px;
+            border-radius: 1em;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .foottext p { 
+            font-size: 4px;
+        }
+
+        .foottext {
+            color: #2b2727;
+            font-size:xx-small;
+        }
+        .foottext:hover {
+            color: #e7d8d8;
+        }
+
+        .up {
+            max-width: 20px;
+            background-color: #e7d8d8;
+            border-radius: 1.5em;
+            padding: 1px;
+            margin: 1px;
+        }
+
+        .tagline { 
+            float: right;
+            padding-bottom: 5px;
+            margin: 5px;
+            border: 0px;         
+        }
+
+        
+
+    </style>
 </head>
 <body>
         
     <nav>
+        <a href="#main" class="skip" tabindex="1">Skip To content</a> <br>
         <a href="homepage.html">homepage <span>|</span> </a>
         <a href="idols.html">idols <span>|</span> </a>
         <a href="musicmaking.html">music creation</a>
     </nav>
 
-    <h3>Creative Process</h3>
-    <p>So I've been writing songs for a couple of years now, since highschool really. But I never really got it, not until this past year. But it took me a really long time to get a rithym going.</p>
+    <div class="banner">
+        <h1>IceBerg in the Stu</h1>
+    </div>
 
-    <p>So my song creation process is pretty simple. I have a couple different techniques for writing. One avenue I take is finding beats, whether that is on youtube, or any of my people send me them, and then I'll write rhymes based off the beat. Another way that it happens is I just get inspired and the only way I can understand them is if I write them down. I turn these words into rhymes and then I try to find a beat or a certain bpm and work off from there. Only recently I had learned about hooks, bridges, and bar structure. So basically a bar is when you rhyme the last word on the fourth beat, that entire sentence is one bar. <br>
-        Twinkle, twinkle, little <u>star</u> <br>
-        How I wonder what you <u>are</u> <br>
-        Up above a world so <u>high</u> <br>
-        Like a diamond in the <u>sky</u> <br>
-    Each underlined word Is the end of one bar. Another way of thinking of a bar is 4 beats. This song snippet is 4 bars. A standard (although there really is no standard) verse is anywhere from 8, 16, 32, even 64 bars. Some songs are longer, but a 16-bar verse is a pretty good length. You have enough time to say something of substance but they're not too long where it's a problem. I try to write as many 16 bar verses as I can, just to improve my rhyme schemes. I usually try to get 4 bars in a row that rhyme with the same ending sound, and then somehow do that three more times and get a 16. But most full length, 3 minute plus songs, need over 32 bars with a hook and bridge. A hook is just a catchy phrase, or couple of phrases, that repeats at least once in the song. A bridge fills in a gap in time in a song, and its usually a place where the beat builds up to a chorus or does the opposite and connects it to the next verse. But again, there's no right way to do it, it's just the mold that is out there. 
-    </p>
+    
+    <div class="threefold">
+        <div class="left"></div>
 
-    <video controls>
-        <source src="../studio.mp4" type="video/mp4" width="20%" height="40%">
-    </video> <br>
+        <div class="center">
+            <div class="writing">
+                <h2 id="main">Creative Process</h2>
+                <p>I've been writing songs for a couple of years now, since high school really. But I never really got it, not until this past year. But it took me a really long time to get a rhythm going.</p>
 
-    <a href="https://syracusesenses.com/">Link to the SENSES website</a> <br>
-    <p>'The SENSES Project provides HEOP and SSS students at Syracuse University the equipment, instruction, and space for self-exploration and expression through music creation and podcasting. SENSES stands for “Studying an Environment that Nurtures Self Exploration in Students.”'</p>
+                <p>My song creation process is pretty simple. I have a couple different techniques for writing. One avenue I take is finding beats, whether that is on Youtube, or any of my people send me them, and then I'll write rhymes based off the beat. Another way that it happens is I just get inspired and the only way I can understand them is if I write them down. I turn these words into rhymes and then I try to find a beat or a certain bpm and work off from there. Only recently I had learned about hooks, bridges, and bar structure. So basically, a bar is when you rhyme the last word on the fourth beat, that entire sentence is one bar. <br><br>
+                Twinkle, twinkle, little <u>star</u> <br><br>
+                How I wonder what you <u>are</u> <br><br>
+                Up above a world so <u>high</u> <br><br>
+                Like a diamond in the <u>sky</u> <br><br>
+                Each underlined word Is the end of one bar. Another way of thinking of a bar is 4 beats. This song snippet is 4 bars. A standard (although there really is no standard) verse is anywhere from 8, 16, 32, even 64 bars. Some songs are longer, but a 16-bar verse is a pretty good length. You have enough time to say something of substance but they're not too long where it's a problem. I try to write as many 16 bar verses as I can, just to improve my rhyme schemes. I usually try to get 4 bars in a row that rhyme with the same ending sound, and then somehow do that three more times and get a 16. But most full length, 3 minute plus songs, need over 32 bars with a hook and bridge. A hook is just a catchy phrase, or couple of phrases, that repeats at least once in the song. A bridge fills in a gap in time in a song, and its usually a place where the beat builds up to a chorus or does the opposite and connects it to the next verse. But again, there's no right way to do it, it's just the mold that is out there. 
+                </p>
+            </div>
 
-    <audio controls>
-        <source src="../More.wav" type="audio/wav">
-    </audio> <br>
-    <p>Song Lyrics</p> <br>
+            <div class="video">
+                <video controls>
+                    <source src="../studioRERESIZE.mp4" type="video/mp4" >
+                </video> <br>
+            </div>
+            <clear></clear> <br>
+            <div class="senses">
+                <a href="https://syracusesenses.com/">Link to the SENSES website</a> <br>
+                <p>'The SENSES Project provides HEOP and SSS students at Syracuse University the equipment, instruction, and space for self-exploration and expression through music creation and podcasting. SENSES stands for “Studying an Environment that Nurtures Self Exploration in Students.”'</p>    
+            </div>
 
-    <audio controls>
-        <source src="../Here and Now.wav" type="audio/wav">
-    </audio>  <br>
-    <p>Song Lyrics</p>
+            <div class="more">
+                <audio controls>
+                    <source src="../More.wav" type="audio/wav">
+                </audio> <br>
+                <h3>More</h3>
+                <h4>IceBerg, featuring Young Roley, B, and Lauren on the chorus</h4>
+                <p> Lyrics: <br>
+                    I want you to be more, more <br>
+                    2am fuck on the floor, mmmm <br>
+                    Your body let me explore <br>
+                    Instigate I like it sore <br>
+                    <br>
+                    Baby don't let me be bored <br>
+                    Lets creatively explore <br>
+                    I want you to be my lover <br>
+                    I want you to be my whore <br>
+                    <br>
+                    Baby it's just me and you<br>
+                    Nobody is keeping score <br>
+                    She asked me if I love her<br>
+                    How do I tell her I'm not sure? <br>
+                    <br>
+                    One week this shorties my baby<br>
+                    Next week I'm kicking her to the door <br>
+                    This love don't come with security<br>
+                    You better get that ensured <br>
+                    <br>
+                    I've been feeling kind of empty <br>
+                    This life fails to make me sure <br>
+                    Been heartbroken too many times <br>
+                    I can't take this shit no more <br>
+                    Chorus. 
+                </p>
+            </div>
+
+            <div class="hereandnow">
+                <audio controls>
+                    <source src="../Here and Now.wav" type="audio/wav">
+                </audio>  <br>
+                <h3>Here And Now </h3>
+                <h4>IceBerg, featuring Young Roley and B.</h4>
+                <p>Lyrics: <br>
+                Social media fucked the game up. <br>
+                Showed us a side of the other sex we were never 'posed to see. <br>
+                Now we got people celebrating abuse and neglecting intimacy. <br>
+                <br> 
+                Every day we see the world blown up <br>
+                But blame those who only ask to let them be <br>
+                But we point and lie in a ruse <br>
+                Blinded by all that we see <br>
+                <br>
+                My struggle in finding peace in my environment <br>
+                Has led me to grow up tall and be inspiring <br>
+                But still I'm a fool and grow silent <br>
+                Instead of standing up to my internal violence <br>
+                <br>
+                You won't feel grown until life breaks you down <br>
+                But I gotta ask why you won't make a sound <br>
+                When a kid like me walk around with a frown <br>
+                All they need to hear is king, here's your crown <br>
+                <br>
+                But I'm here now <br>
+                Cleanching my fists when I look in the mirror, I'm here now <br>
+                Telling myself to rise above my fear <br>
+                But I'm here now <br>
+                I have what it takes it comes from right here <br>
+                I'll never stand down <br>
+                My spirit won't break you'll all have to cheer <br>
+                <br>
+                Everybody show me love I don't need that shit <br>
+                Yo Simon wylin style so intricate <br>
+                But nobody knows how evil it gets <br>
+                Inside, but I'm fine, strap my heart with a stick. <br>
+                ... </p>
+            </div>
+
+        </div>
+
+        <div class="right"></div>
+    </div>
+    
+    <div class="foottext"><img src="../images/-18.png" alt="18 and up" class="up"> strong language</div> 
+
+    <footer>
+        <hr> 
+        <p class="tagline">"A normal life is boring" - Eminem</p>       
+    </footer>
+
+    
+    
 </body>
 </html>
